@@ -17,18 +17,3 @@ Configurable number of emails to process
 Real-time processing and updates
 
 
-Project Structure
-gmail-extension/
-├── backend/                 # Python backend
-│   ├── agent/              # AI agent for email processing
-│   │   ├── agent.py        # Main agent logic
-│   │   ├── llm.py          # LLM integration
-│   │   └── tools.py        # Email processing tools
-│   ├── app.py              # Flask server
-│   └── logging_config.py   # Logging configuration
-├── extension/              # Chrome extension
-│   ├── manifest.json       # Extension manifest
-│   ├── popup.html         # Extension popup UI
-│   ├── popup.js           # Popup logic
-│   └── styles.css         # Extension styles
-└── logs/                  # Application logs
